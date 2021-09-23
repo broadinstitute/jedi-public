@@ -1,0 +1,14 @@
+include rpdr/echo_features/*.csv
+include rpdr/echo_features/*.txt
+include definition_files/*.tsv
+include definition_files/*.csv
+include medications/*.csv
+include rpdr/ingestion/*.txt
+include test_data/*/*.txt
+include test_data/*/*.tsv
+include test_data/*/*.csv
+include rpdr/phy_regex/*.txt
+include rpdr/phy_regex/*.csv
+include rpdr/wide_file/summary_statistics/metadata/*.tsv
+include rpdr/regex_features/*.txt
+include rpdr/regex_features/*.csv
