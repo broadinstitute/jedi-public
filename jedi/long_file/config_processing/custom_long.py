@@ -1,4 +1,3 @@
-import h5py
 from typing import List, Dict
 
 import h5py
@@ -14,7 +13,7 @@ def extract_fields(hd5_paths: List[str], config_dict: Dict[str, pd.DataFrame]) \
         -> pd.DataFrame:
     """
     Extracts fields for a custom long file as specifed in config_dict, from
-    hd5_paths. Refer to rpdr/long_file/config_processing/README.md for config
+    hd5_paths. Refer to jedi/long_file/config_processing/README.md for config
     specifications.
     """
     long_df = []
