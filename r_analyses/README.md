@@ -19,3 +19,6 @@ calibration_barplot.R: script for visualizing model calibration
 ## Tabular and NLP comparison scripts
 nlp_vs_compare.R: script for assessing agreement and correlation between NLP-derived and tabular vital signs  
 agreement_time.R: script for assessing agreement between NLP and tabular vital signs by year
+
+## Functions
+functions/functions.R: helper functions
