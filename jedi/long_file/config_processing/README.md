@@ -29,9 +29,7 @@ The aforementioned functionality is implemented using the following three config
 - Field Config: specifies mapping between file types, the field names in those files (eg: Age), and filters/regexes to apply to extracted values
 - Time Config (optional): provides mapping between ids and time periods of interest
 
-At least a code config or a field config needs to be provided to specify a valid set of long files. Any combination meeting that minimum criteria is valid. The following subsections detail the columns and corresponding extraction behavior of each of these config files. 
-
-Sample config files can be found at [test_data/configs](https://github.com/broadinstitute/ml_partners_rpdr/tree/ps_custom_long_consolidate/test_data/configs). It should be noted that these files can be in either `.csv` or `.tsv` format. 
+At least a code config or a field config needs to be provided to specify a valid set of long files. Any combination meeting that minimum criteria is valid. The following subsections detail the columns and corresponding extraction behavior of each of these config files.
 
 ### Code Config
 The code config maps covariate names to diagnostic codes. A sample code config could look like:

@@ -2,5 +2,5 @@
 
 Usage:
 ```
-rpdr/utils/parse_logs/parse_logs.py --log_dir [PATH TO LOG DIRECTORY] --output_dir [PATH TO OUTPUT DIRECTORY]
+jedi/utils/parse_logs/parse_logs.py --log_dir [PATH TO LOG DIRECTORY] --output_dir [PATH TO OUTPUT DIRECTORY]
 ```
